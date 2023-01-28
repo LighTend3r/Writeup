@@ -25,14 +25,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Templates/CTF.md",
+                "file": "Templates/WriteUp.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fcd0b69987ef7ce3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2023/TryHackMe/Crypto/LeCannard.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Templates/CTF.md",
+                "file": "2023/TryHackMe/Crypto/LeCannard.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Templates/CTF.md",
+                "file": "2023/TryHackMe/Crypto/LeCannard.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Templates/CTF.md"
+                "file": "2023/TryHackMe/Crypto/LeCannard.md"
               }
             }
           }
@@ -159,16 +171,17 @@
       "command-palette:Ouvrir la palette de commandes": false
     }
   },
-  "active": "f4f2cf18baf51e73",
+  "active": "fcd0b69987ef7ce3",
   "lastOpenFiles": [
-    "Templates/WriteUp.md",
-    "Templates/CTF.md",
     "2023/TryHackMe/README.md",
+    "2023/TryHackMe/Crypto/LeCannard.md",
+    "Templates/CTF.md",
+    "Templates/test.md",
+    "Templates/WriteUp.md",
     "2023/TryHackMe/Test.md",
-    "2023/TryHackMe/Le cannard.md",
+    "Le+cannard.md",
     "README.md",
     "2023-01-28.md",
-    "Templates/Sans titre.canvas",
-    "App-Script - Python.md"
+    "Templates/Sans titre.canvas"
   ]
 }

@@ -5,8 +5,8 @@
 
 ### Categorie
 
-- [Le cannard](obsidian://open?vault=Writeup&file=2023%2FTryHackMe%2FLe%20cannard)
-- 
+- [Le cannard](Crypto/LeCannard.md)
+-  
 
 
 
