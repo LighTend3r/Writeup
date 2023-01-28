@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2023/TryHackMe/README.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2023/TryHackMe/README.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2023/TryHackMe/README.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2023/TryHackMe/README.md"
+                "file": "README.md"
               }
             }
           }
@@ -173,10 +173,10 @@
   },
   "active": "fcd0b69987ef7ce3",
   "lastOpenFiles": [
-    "README.md",
-    "2023/TryHackMe/README.md",
     "Templates/WriteUp.md",
     "Templates/CTF.md",
+    "2023/TryHackMe/README.md",
+    "README.md",
     "2023/TryHackMe.md",
     "2023/TryHackMe/Crypto/LeCannard.md",
     "Templates/test.md",
