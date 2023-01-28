@@ -4,5 +4,9 @@
   "newFileLocation": "current",
   "showUnsupportedFiles": true,
   "showInlineTitle": false,
-  "promptDelete": false
+  "promptDelete": false,
+  "spellcheckLanguages": [
+    "fr",
+    "en-US"
+  ]
 }
