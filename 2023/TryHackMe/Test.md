@@ -8,9 +8,8 @@ Date : 28-01-2023
 
 > Exemple
 
-#### Fichier : %%[file](./file.html)%%
+#### Fichier : 
 
-[[App-Script - Python]]
 
 ## Découverte
 

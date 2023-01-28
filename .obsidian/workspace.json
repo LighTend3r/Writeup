@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "9c7acfe2e5c83fbd",
+        "id": "e9ddc073f2a0fea7",
         "type": "tabs",
         "children": [
           {
-            "id": "c6972b57bdb71308",
+            "id": "63422ca47ea1a8db",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -146,6 +146,10 @@
       "command-palette:Ouvrir la palette de commandes": false
     }
   },
-  "active": "c6972b57bdb71308",
-  "lastOpenFiles": []
+  "active": "63422ca47ea1a8db",
+  "lastOpenFiles": [
+    "Templates/WriteUp.md",
+    "2023/TryHackMe/Test.md",
+    "App-Script - Python.md"
+  ]
 }
