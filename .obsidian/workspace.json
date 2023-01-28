@@ -43,8 +43,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "2023/TryHackMe/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "2023/TryHackMe/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "2023/TryHackMe/README.md"
               }
             }
           }
@@ -171,12 +170,12 @@
       "command-palette:Ouvrir la palette de commandes": false
     }
   },
-  "active": "fcd0b69987ef7ce3",
+  "active": "63422ca47ea1a8db",
   "lastOpenFiles": [
+    "README.md",
     "Templates/WriteUp.md",
     "Templates/CTF.md",
     "2023/TryHackMe/README.md",
-    "README.md",
     "2023/TryHackMe.md",
     "2023/TryHackMe/Crypto/LeCannard.md",
     "Templates/test.md",
