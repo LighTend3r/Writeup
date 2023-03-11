@@ -39,7 +39,8 @@ main(void) {
 	
 	puts("un affichage"); 
 	
-	printf("%s%sWasup Aldo, did you see me in Banksy\'s latest work?\n[1]Yeah ahah, I saw you, you loo k pretty good\n[2]Absolutely not Rafiki, Stop seeing yourself everywhere\n%s%s>" ,&Purple,&Bold,&Blue,&Bold); iVar1 = __isoc99_scanf(&DAT_004978ae,&local_4c); 
+	printf("%s%sWasup Aldo, did you see me in Banksy\'s latest work?\n[1]Yeah ahah, I saw you, you loo k pretty good\n[2]Absolutely not Rafiki, Stop seeing yourself everywhere\n%s%s>" ,&Purple,&Bold,&Blue,&Bold); 
+	iVar1 = __isoc99_scanf(&DAT_004978ae,&local_4c); 
 	
 	if (iVar1 == 1) { 
 		do { 
@@ -68,7 +69,8 @@ on peut donc avec notre analyse au préalable déterminer plus facilement quelle
 par exemple :
 
 ```c
-printf("%s%sWasup Aldo, did you see me in Banksy\'s latest work?\n[1]Yeah ahah, I saw you, you loo k pretty good\n[2]Absolutely not Rafiki, Stop seeing yourself everywhere\n%s%s>" ,&Purple,&Bold,&Blue,&Bold); iVar1 = __isoc99_scanf(&DAT_004978ae,&local_4c); 
+printf("%s%sWasup Aldo, did you see me in Banksy\'s latest work?\n[1]Yeah ahah, I saw you, you loo k pretty good\n[2]Absolutely not Rafiki, Stop seeing yourself everywhere\n%s%s>" ,&Purple,&Bold,&Blue,&Bold); 
+iVar1 = __isoc99_scanf(&DAT_004978ae,&local_4c); 
 ```
 Notre demande du début est stocké dans *local_4c*
 
@@ -120,6 +122,7 @@ donc avec le payload : `aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaMonkey Parliament`
 où local_48 = "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa" et local_28 = "Monkey Parliament"
 
 ![final](final.png)
+
 Bon là j'ai du le faire en local car les serveurs sont down, mais le cat flag.txt a bien fonctionné
 `
 
