@@ -97,12 +97,12 @@ ensuite viens le plus intéréssant, la comparaison du nom :
 iVar1 = strncmp("Monkey Parliament",(char *)&local_28,0x11); // 0x11 = 17
 ```
 
-mais, on ne peut jamais écrire dans local_28 ???
+mais, on ne peut jamais écrire dans *local_28* ???
 
 ## Résolution
 
 Et bien si !!!!
-souvenez vous, on peut écrire 55 charactères dans local_48, mais local_48 fait elle vraiment une taille de 55 charactères ?
+souvenez vous, on peut écrire 55 charactères dans *local_48*, mais *local_48* fait elle vraiment une taille de 55 charactères ?
 
 ```c
 char local_48 [32]; // Et bien non !!!!
@@ -119,7 +119,7 @@ bingo, la variable juste après c'est *local_28*
 
 donc avec le payload : `aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaMonkey Parliament`
 
-où local_48 = "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa" et local_28 = "Monkey Parliament"
+où *local_48* = "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa" et *local_28* = "Monkey Parliament"
 
 ![final](final.png)
 
