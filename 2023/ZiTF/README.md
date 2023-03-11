@@ -1,3 +1,3 @@
 ## Reverse
 
-- [Check Pass](Reverse/Check_Pass)
+- [Check Pass](Reverse/Check_Pass.md)
