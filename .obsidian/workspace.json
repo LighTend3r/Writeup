@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "58cbd00edd3fc545",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2023/ZiTF/README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -146,19 +159,24 @@
       "command-palette:Ouvrir la palette de commandes": false
     }
   },
-  "active": "63422ca47ea1a8db",
+  "active": "58cbd00edd3fc545",
   "lastOpenFiles": [
+    "2023/ZiTF/Reverse/Banksy.md",
+    "Templates/WriteUp.md",
+    "README.md",
+    "Pasted image 20230312001435.png",
+    "Pasted image 20230311235714.png",
+    "Pasted image 20230311235700.png",
+    "2023/ZiTF/Reverse/Check_Pass.md",
+    "2023/ZiTF/Reverse/banksy",
+    "2023/ZiTF/README.md",
     "2023/TryHackMe/README.md",
     "2023/TryHackMe/Crypto/LeCannard.md",
-    "2023/ZiTF/README.md",
-    "README.md",
-    "2023/ZiTF/Reverse/Check_Pass.md",
     "2023/ZiTF/Reverse/func_main.png",
     "2023/ZiTF/Reverse/Pasted.md",
     "2023/ZiTF/Reverse/flag.png",
     "2023/ZiTF/Reverse/func_check_pass.png",
     "2023/ZiTF/Reverse/func_tricky_move.png",
-    "Templates/WriteUp.md",
     "2023/ZiTF/Reverse/check-pass-1",
     "2023/ZiTF/Osint",
     "2023/ZiTF/Web",

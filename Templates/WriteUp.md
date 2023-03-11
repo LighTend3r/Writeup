@@ -1,6 +1,6 @@
 # {{title}}
 
-Difficulté : ⭐
+Difficulté : 0 pts
 
 Date : {{date}}
 
@@ -24,6 +24,9 @@ Date : {{date}}
 
 #### Flag : `EXP{CecI_3sT_Un_3xeMp1e}`
 
+Mes DM sont toujours ouvert pour toutes questions !!!!!!!!!
+
+LighTender#8830
 
 
 
