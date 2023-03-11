@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2023/ZiTF/README.md",
+                "file": "2023/ZiTF/Reverse/Banksy.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2023/ZiTF/README.md",
+                "file": "2023/ZiTF/Reverse/Banksy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2023/ZiTF/README.md",
+                "file": "2023/ZiTF/Reverse/Banksy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2023/ZiTF/README.md"
+                "file": "2023/ZiTF/Reverse/Banksy.md"
               }
             }
           }
@@ -161,15 +161,15 @@
   },
   "active": "58cbd00edd3fc545",
   "lastOpenFiles": [
+    "2023/ZiTF/Reverse/Check_Pass.md",
+    "2023/ZiTF/Reverse/demarrage.png",
+    "2023/ZiTF/Reverse/name.png",
     "2023/ZiTF/Reverse/Banksy.md",
+    "2023/ZiTF/README.md",
     "Templates/WriteUp.md",
     "README.md",
-    "Pasted image 20230312001435.png",
-    "Pasted image 20230311235714.png",
-    "Pasted image 20230311235700.png",
-    "2023/ZiTF/Reverse/Check_Pass.md",
+    "2023/ZiTF/Reverse/final.png",
     "2023/ZiTF/Reverse/banksy",
-    "2023/ZiTF/README.md",
     "2023/TryHackMe/README.md",
     "2023/TryHackMe/Crypto/LeCannard.md",
     "2023/ZiTF/Reverse/func_main.png",

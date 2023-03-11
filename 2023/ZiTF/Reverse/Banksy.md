@@ -15,11 +15,11 @@ Date : 11-03-2023
 On commence souvent par executer le fichier pour voir comment il fonctionne, pour voir les similarités dans le code après
 
 Lorsqu'on lance le fichier on nous laisse un choix entre 2 options :
-![[Pasted image 20230311235700.png]]
+![demarrage](demarrage.png)
 
 si on choisis, 1
 
-![[Pasted image 20230311235714.png]]
+![name](name.png)
 
 on nous demande notre nom, ok, allons faire un tour dans gidra,
 
@@ -119,7 +119,7 @@ donc avec le payload : `aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaMonkey Parliament`
 
 où local_48 = "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa" et local_28 = "Monkey Parliament"
 
-![[Pasted image 20230312001435.png]]
+![final](final.png)
 Bon là j'ai du le faire en local car les serveurs sont down, mais le cat flag.txt a bien fonctionné
 `
 
