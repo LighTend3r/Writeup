@@ -7,7 +7,7 @@ Date : 11-03-2023
 
 > Your mission is to enter on a controlled site. Will you succeed?
 
-#### Fichier : ![[check-pass-1]]
+#### Fichier : [check-pass-1](check-pass-1)
 
 ## Découverte
 
@@ -19,7 +19,7 @@ Je me munie de mon logiciel que je connais le mieux ghidra (pour le dl : [ici](h
 
 Arrivé sur ghidra je check les strings (on sais jamais si le flag est en claire), mais rien, je me hâte alors à trouver la fonction main, par chance les fonctions ne sont pas obfusqués je l'identifie donc aisément et, voici à quoi elle ressemble :
 
-![[Pasted image 20230311223533.png]]
+![main](func_main.png)
 et oui ghidra à un décompileur intégré héhé, c'est très pratique au début, mais bon c'est pas tout le temps sufisant
 par ce que oui, le code est déjà beaucoup moins facile à lire, mais on va y aller pas à pas, mon objectif, est d'enseignier au plus débutant comment faire, comment comprendre le code décompilé
 
@@ -47,11 +47,11 @@ Donc ici on a (Ligne 16):
 
 Maintenant on apelle la fonction `tricky_move` avec comme argument le pointeur de notre mot de passe, regardons ce qu'il y a dedans
 
-![[Pasted image 20230311224920.png]]
+![tricky_move](func_tricky_move.png)
 
 okay, on vois une fonction qui s'appelle **memmove**, ça semble bouger des éléments dans un tableau, je vous propose de prendre connaissance aussi de la fonction **check_pass**, pour savoir comment notre fameux mot de passe est accepté
 
-![[Pasted image 20230311225047.png]]
+![check_pass](func_check_pass.png)
 
 Ici, **check_pass**, utilise aussi notre mot de passe modifier préalablement par **tricky_move**,
 on vois à la ligne 7 la fonction **strncmp**, qui d'où sont nom compare 2 chaines de charactères, on vois que param_1 (qui est notre mot de passe modifier par **check_pass**) doit être égale à `4_The_Monkey_heap_heap_heap_00ra`, on imagine que sans la fonction **check_pass**, il suffirai juste d'écrire `4_The_Monkey_heap_heap_heap_00ra` comme mot de passe, et ça passera !!!
@@ -62,7 +62,7 @@ Bon, le meilleur moyen de comprendre comment un bout de code marche, reste par t
 
 Donc en parcourant le main on arriverais à la ligne 17 sans encombre avec *local_60* = `4_The_Monkey_heap_heap_heap_00ra`
 
-![[Pasted image 20230311224920.png]]
+![tricky_move](func_tricky_move.png)
 
 maintenant analyson cette fonction **memmove**, rien de mieux que internet ! 
 https://www.tutorialspoint.com/c_standard_library/c_function_memmove.htm
@@ -89,7 +89,7 @@ for(int i = 0; i<7; i++){printf('%c',pass[i])} >>> "Bonjour"
 
 Okay, essayon avec le payload : `a4_The_Monkey_heap_heap_heap_00ra`
 
-![[Pasted image 20230311231618.png]]
+![flag](flag.png)
 
 bingo le flag !
 
