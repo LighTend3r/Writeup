@@ -5,8 +5,6 @@
 
 ### Categorie
 
-- [Le cannard](Crypto/LeCannard.md)
--  
 
 
 
