@@ -21,8 +21,8 @@ Je me munie de mon logiciel que je connais le mieux ghidra (pour le dl : [ici](h
 Arrivé sur ghidra je check les strings (on sais jamais si le flag est en claire), mais rien, je me hâte alors à trouver la fonction main, par chance les fonctions ne sont pas obfusqués je l'identifie donc aisément et, voici à quoi elle ressemble :
 
 ![main](func_main.png)
-et oui ghidra à un décompileur intégré héhé, c'est très pratique au début, mais bon c'est pas tout le temps sufisant
-par ce que oui, le code est déjà beaucoup moins facile à lire, mais on va y aller pas à pas, mon objectif, est d'enseignier au plus débutant comment faire, comment comprendre le code décompilé
+
+et oui ghidra à un décompileur intégré héhé, c'est très pratique au début, mais bon c'est pas tout le temps sufisant par ce que oui, le code est déjà beaucoup moins facile à lire, mais on va y aller pas à pas, mon objectif, est d'enseignier au plus débutant comment faire, comment comprendre le code décompilé
 
 Déjà ligne 11, on vois la fonction [fgets](https://koor.fr/C/cstdio/fgets.wp), donc il y a récupération d'une chaine de caractère rentrer par l'utilisateur (notre mot de passe)
 Cette fonction renvois une chaine de charactère vide en cas d'erreur, donc le if sur la variable *pcVar2* ne nous posera pas de problème
@@ -98,6 +98,7 @@ bingo le flag !
 #### Flag : `ZiTF{3oihas7re2fw97orqcxmvq1qmu2l4lw4}`
 
 Mes DM sont toujours ouvert !!!!!!!!!
+
 LighTender#8830
 
 
