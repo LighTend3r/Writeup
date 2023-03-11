@@ -108,7 +108,7 @@ souvenez vous, on peut écrire 55 charactères dans local_48, mais local_48 fait
 char local_48 [32]; // Et bien non !!!!
 ```
 
-donc si on remplit local_48 avec 32 charactères, et biens les charactères suivant iront dans la variable juste après, et...
+donc si on remplit local_48 avec 32 charactères, et biens les charactères suivant iront dans la variable juste après, on appelle ça un **BufferOverflow**, et...
 
 ```c
 char local_48 [32]; 
